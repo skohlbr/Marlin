@@ -386,9 +386,9 @@
 
   // ANET A8 Standard Extruder at 210 Degree Celsius and 100% Fan
   //(measured after M106 S255 with M303 E0 S210 C8)
-  #define  DEFAULT_Kp 25.0
-  #define  DEFAULT_Ki 2.0
-  #define  DEFAULT_Kd 80.0
+  #define  DEFAULT_Kp 27.27
+  #define  DEFAULT_Ki 2.28
+  #define  DEFAULT_Kd 81.55
 
 #endif // PIDTEMP
 
@@ -420,9 +420,9 @@
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
-  #define  DEFAULT_bedKp 10.00
-  #define  DEFAULT_bedKi .023
-  #define  DEFAULT_bedKd 305.4
+  #define  DEFAULT_bedKp 418.99
+  #define  DEFAULT_bedKi 59.47
+  #define  DEFAULT_bedKd 737.94
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from pidautotune
